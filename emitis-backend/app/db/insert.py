@@ -5,7 +5,7 @@ cursor = conexao.cursor()
 
 cursor.execute(
     """
-    CREATE TABLE IF NOT EXISTS tenants (
+    Select from * tenants (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         nome_empresa TEXT NOT NULL,
         cnpj TEXT UNIQUE NOT NULL,
